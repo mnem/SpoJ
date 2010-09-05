@@ -1,5 +1,11 @@
-You will have to add the [libspotify][] source to the libspotify folder
-and also generate your own application [key][] for the key folder.
+You should copy or symlink the appropriate [libspotify][] static library here
+along with your application [key][] c file and the [libspotify][] api.h.
+
+For example:
+
+        spotify/api.h
+        spotify/libspotify
+        spotify/spotify_appkey.c
 
 
 [libspotify]: http://developer.spotify.com/en/libspotify/overview/
