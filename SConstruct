@@ -10,7 +10,7 @@ else:
     libspotify = "spotify"
 
 env.Program(
-    target = 'jukebox',
+    target = 'bin/jukebox',
     source = [
         'src/jukebox.c',
         'src/openal-audio.c',
